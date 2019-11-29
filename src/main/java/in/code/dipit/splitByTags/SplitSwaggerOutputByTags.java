@@ -31,7 +31,7 @@ public class SplitSwaggerOutputByTags {
   public static void main(String[] args) throws Exception {
 
     if (args.length < 2) {
-      System.out.println("USAGE: java -jar <jar_name> <inputSwaggerFile> <outputFolder>");
+      System.out.println("USAGE: java -jar <jar_name> <input_openAPI_file_path> <output_folder_path>");
       throw new IllegalArgumentException("Expected arguments mismatch. Check usage.");
     }
 
